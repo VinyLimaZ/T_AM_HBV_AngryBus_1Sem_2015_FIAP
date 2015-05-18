@@ -8,7 +8,7 @@
         <title>Alterar consumo</title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -102,11 +102,17 @@
                             <div class="form-group">
                             <div class="pull-left">
                                 <select class="form-control">
-                                    <opgroup class="form-control">
-
-
-                                    </opgroup>
+                                    <optgroup class="form-control" label="Itens">
+									  <option>Item1</option>
+									  <option>Item2</option>
+									  <option>Item3</option>
+                                    </optgroup>
+									<optgroup class="form-control" label="Serviços">
+									  <option>Serviço1</option>
+									  <option>Serviço2</option>
+									</optgroup>
                                 </select>
+								<input type="number" class="form-control">
                                 <button class="btn bnt-default" type="button" id="adc">Adicionar</button>
 
                             </div>

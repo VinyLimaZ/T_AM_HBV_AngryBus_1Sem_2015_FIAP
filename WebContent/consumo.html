@@ -76,17 +76,17 @@
                             <th>Itens - serviços</th>
                             <th>Quantidade</th>
                             <th>Total</th>
-                            <tr class="tb3">
+                            <tr class="tb">
                                 <td>Serviço 1</td>
                                 <td>3</td>
                                 <td>6,00</td>
                             </tr>
-                            <tr class="tb2">
+                            <tr class="tb">
                                 <td>Serviço 2</td>
                                 <td>7</td>
                                 <td>42,00</td>
                             </tr>
-                            <tr class="tb1">
+                            <tr class="tb">
                                 <td>Item 3</td>
                                 <td>2</td>
                                 <td>76,00</td>
@@ -123,7 +123,7 @@
                 $( document ).ready( function(){
                     $( "#xx" ).click( function(){
 
-                        $( ".tb" ).remove();
+                        $( ".tb:last" ).remove();
 
                     });
                 });
